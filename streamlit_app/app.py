@@ -84,7 +84,7 @@ st.markdown("""
  Try saying things like:
 - "What's the latest on Apple?"
 - "Tell me about Tesla's stock."
-- "Should I buy Nvidia?"
+- "Should I buy META?"
 - "How is Microsoft performing today?"
 
 Speak clearly and wait for the assistant to respond.
