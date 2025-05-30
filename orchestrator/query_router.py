@@ -33,7 +33,8 @@ PREDEFINED_TICKERS = {
     "amazon": "AMZN",
     "google": "GOOGL",
     "meta": "META",
-    "tesla": "TSLA"
+    "tesla": "TSLA",
+    "nvidia": "NVDA"
 }
 
 
