@@ -1,0 +1,22 @@
+# Core Web App
+streamlit
+streamlit-mic-recorder
+
+# Audio Processing
+pydub
+speechrecognition
+gTTS
+pygame
+edge-tts
+tempfile
+
+# Data Handling
+pandas
+yfinance
+python-dotenv
+requests
+rapidfuzz
+
+# Utils
+asyncio 
+base64
