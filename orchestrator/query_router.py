@@ -111,5 +111,5 @@ def handle_market_brief_query(query: str) -> str:
 )
 
 
-
-    return generate_llm_response(prompt)
+    response = generate_llm_response(prompt)
+    return response.strip()[:280]
