@@ -14,7 +14,7 @@ import tempfile
 import edge_tts
 
 from streamlit_mic_recorder import mic_recorder
-from Finance.orchestrator.query_router import handle_market_brief_query
+from orchestrator.query_router import handle_market_brief_query
 
 
 # ---------------------------
