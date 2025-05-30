@@ -9,7 +9,6 @@ gTTS
 pygame
 edge-tts
 
-
 # Data Handling
 pandas
 yfinance
@@ -19,4 +18,4 @@ rapidfuzz
 
 # Utils
 asyncio 
-base64
+
