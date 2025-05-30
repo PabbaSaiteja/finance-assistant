@@ -15,8 +15,11 @@ HEADERS = {
     "Content-Type": "application/json"
 }
 
-# Load ticker data from CSV or Excel
-df = pd.read_csv("E:/finance/data/tickers.csv")  
+
+
+csv_path = os.path.join(os.path.dirname(__file__), "..", "data", "tickers.csv")
+df = pd.read_csv(os.path.abspath(csv_path))
+ 
 df = df.dropna(subset=["Name", "Ticker"])
 stock_name_to_ticker = {
     name.lower(): ticker for name, ticker in zip(df["Name"], df["Ticker"])
