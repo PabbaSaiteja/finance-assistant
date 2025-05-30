@@ -77,9 +77,18 @@ def render_audio_player_autoplay(file_path):
 # ---------------------------
 # Streamlit App
 # ---------------------------
+
 st.set_page_config(page_title="Finance Assistant", layout="centered")
 st.title("Voice-Powered Finance Assistant")
+st.markdown("""
+ Try saying things like:
+- "What's the latest on Apple?"
+- "Tell me about Tesla's stock."
+- "Should I buy Nvidia?"
+- "How is Microsoft performing today?"
 
+Speak clearly and wait for the assistant to respond.
+""")
 st.markdown("🎙️ Click below to record from your mic.")
 
 audio = mic_recorder(start_prompt="Start Recording", stop_prompt="Stop Recording", just_once=True, key="recorder")
