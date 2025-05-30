@@ -8,7 +8,7 @@ speechrecognition
 gTTS
 pygame
 edge-tts
-tempfile
+
 
 # Data Handling
 pandas
